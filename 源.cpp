@@ -29,7 +29,7 @@ int main()
 	return 0;
 }
 
-void encrypt()
+void encrypt()                    //加密功能
 {
 	int i;
 	int count = 0;
@@ -45,8 +45,8 @@ void encrypt()
 	encrypt[i] = '\0';
 	printf("加密后的密文是:%s\n", encrypt);
 }
-
-void decrypt()
+ 
+void decrypt()                           //解密功能
 {
 	int i;
 	int count = 0;
